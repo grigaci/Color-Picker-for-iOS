@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		430333BB1B007C32001816E9 /* HRColorPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 430333BA1B007C32001816E9 /* HRColorPickerViewController.m */; };
 		46E87BFF146F46C600BC1608 /* HRColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E87BFB146F46C600BC1608 /* HRColorPickerView.m */; };
 		46E87C00146F46C600BC1608 /* HRHSVColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 46E87BFD146F46C600BC1608 /* HRHSVColorUtil.m */; };
 		5A960054696F86CC6BACBEE0 /* HRSampleColorPickerViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9609895A2D64809BCB4C38 /* HRSampleColorPickerViewController2.m */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		430333B91B007C32001816E9 /* HRColorPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerViewController.h; sourceTree = "<group>"; };
+		430333BA1B007C32001816E9 /* HRColorPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerViewController.m; sourceTree = "<group>"; };
 		46E87BFA146F46C600BC1608 /* HRColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRColorPickerView.h; sourceTree = "<group>"; };
 		46E87BFB146F46C600BC1608 /* HRColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRColorPickerView.m; sourceTree = "<group>"; };
 		46E87BFC146F46C600BC1608 /* HRHSVColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHSVColorUtil.h; sourceTree = "<group>"; };
@@ -104,6 +107,8 @@
 				5A96000BB289E1B816E7711D /* HRBrightnessSlider.h */,
 				5A96068A373E534008D7C3CD /* HRColorInfoView.m */,
 				5A960B38CC298F0104212AD6 /* HRColorInfoView.h */,
+				430333B91B007C32001816E9 /* HRColorPickerViewController.h */,
+				430333BA1B007C32001816E9 /* HRColorPickerViewController.m */,
 			);
 			name = ColorPicker;
 			path = ../../ColorPicker;
@@ -248,6 +253,7 @@
 				46E87BFF146F46C600BC1608 /* HRColorPickerView.m in Sources */,
 				46E87C00146F46C600BC1608 /* HRHSVColorUtil.m in Sources */,
 				DA3CD22E148205F700492DF7 /* HRBrightnessCursor.m in Sources */,
+				430333BB1B007C32001816E9 /* HRColorPickerViewController.m in Sources */,
 				DA3CD2321482068B00492DF7 /* HRColorCursor.m in Sources */,
 				5A960E4C18B27F97510AF01D /* HRSampleColorPickerViewController.m in Sources */,
 				5A960054696F86CC6BACBEE0 /* HRSampleColorPickerViewController2.m in Sources */,
