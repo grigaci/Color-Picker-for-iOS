@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+@class HRColorPickerView;
+
 @interface HRColorPickerViewController : UIViewController
 
+@property (nonatomic, strong, readonly) HRColorPickerView *colorPickerView;
 @property (nonatomic, copy) void(^colorChangedCallback)(UIColor *newColor);
 
 @end

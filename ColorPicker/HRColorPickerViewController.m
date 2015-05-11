@@ -12,7 +12,7 @@
 
 @interface HRColorPickerViewController ()
 
-@property (nonatomic, strong) HRColorPickerView *colorPickerView;
+@property (nonatomic, strong, readwrite) HRColorPickerView *colorPickerView;
 
 @end
 
